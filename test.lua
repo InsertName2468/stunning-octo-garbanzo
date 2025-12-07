@@ -1,8 +1,7 @@
 local args = {
-    [1] = 1,
-    [2] = {
-        [1] = "RubyBlock,DiamondBlock,RubyGem,Diamond,GoldIngot,FMechadon,DirtyRubyCrystal,DirtyDiamond,JuiceBottle,"
-    }
+    [1] = "RubyBlock",
+    [2] = "RightHand",
+    [3] = 1
 }
 
-game:GetService("ReplicatedStorage").HotbarE:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").AccessoryChangeF:InvokeServer(unpack(args))
